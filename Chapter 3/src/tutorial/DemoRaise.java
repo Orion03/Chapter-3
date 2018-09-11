@@ -1,16 +1,18 @@
 package tutorial;
 
+import java.util.Scanner;
+
 public class DemoRaise {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		Scanner input = new Scanner(System.in);
+		
 		System.out.println("Demonstrating some raises");
 		
 		System.out.println("Enter your salary >> ");
 		salary = input.nextDouble();
-		
-		Scanner input = new Scanner(System.in);
 		
 		predictRaise(salary);
 	}
