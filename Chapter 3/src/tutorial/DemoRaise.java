@@ -7,6 +7,9 @@ public class DemoRaise {
 		
 		System.out.println("Demonstrating some raises");
 		
+		System.out.println("Enter your salary >> ");
+		salary = input.nextDouble();
+		
 		Scanner input = new Scanner(System.in);
 		
 		predictRaise(salary);
