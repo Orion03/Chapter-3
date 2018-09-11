@@ -16,6 +16,12 @@ public class FahrenheitToCelcius {
 		System.out.println("Please enter the temperature it was at 8:00 >> ");
 		temperatureAtEight = input.nextDouble();
 		
+		System.out.println("Please enter the temperature it was at 12:00 >> ");
+		temperatureAtTwelve = input.nextDouble();
+		
+		System.out.println("Please enter the temperature it was at 5:00 >> ");
+		temperatureAtFive = input.nextDouble();
+		
 		FahrenheitToCelsius(temperatureAtEight);
 	}
 	
