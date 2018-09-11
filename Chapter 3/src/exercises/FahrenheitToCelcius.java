@@ -26,9 +26,9 @@ public class FahrenheitToCelcius {
 	}
 	
 	public static void FahrenheitToCelsius(double temperatureAtEight) {
-		double Celsius;
-		Celsius = (temperatureAtEight - 32) * 5/9;
-		System.out.println(temperatureAtEight + " degrees fahrenheit is " + Celsius + " degrees celsius.");
+		double CelsiusAtEight;
+		CelsiusAtEight = (temperatureAtEight - 32) * 5/9;
+		System.out.println(temperatureAtEight + " degrees fahrenheit is " + CelsiusAtEight + " degrees celsius.");
 	}
 
 }
