@@ -10,6 +10,8 @@ public class FahrenheitToCelcius {
 		Scanner input = new Scanner(System.in);
 		
 		double temperatureAtEight;
+		double temperatureAtTwelve;
+		double temperatureAtFive;
 		
 		System.out.println("Please enter the temperature it was at 8:00 >> ");
 		temperatureAtEight = input.nextDouble();
