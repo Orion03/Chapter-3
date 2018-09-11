@@ -9,12 +9,18 @@ public class FahrenheitToCelcius {
 		
 		Scanner input = new Scanner(System.in);
 		
-		double eight;
+		double temperature;
 		
 		System.out.println("Please enter the temperature it was at 8:00 >> ");
-		eight = input.nextDouble();
+		temperature = input.nextDouble();
 		
-		
+		FahrenheitToCelsius(temperature);
+	}
+	
+	public static void FahrenheitToCelsius(double temperature) {
+		double Celsius;
+		Celsius = (temperature - 32) * (5/9);
+		System.out.println(temperature + " degrees fahrenheit is " + Celsius + " degrees celsius.");
 	}
 
 }
