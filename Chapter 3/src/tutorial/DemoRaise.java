@@ -7,7 +7,7 @@ public class DemoRaise {
 		
 		double salary = 200.00;
 		double startingWage = 800.00;
-		System.out.println("Demonstration some raises");
+		System.out.println("Demonstrating some raises");
 		predictRaise(400.00);
 		predictRaise(salary);
 		predictRaise(startingWage);
