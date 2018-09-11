@@ -9,6 +9,8 @@ public class DemoRaise {
 		
 		Scanner input = new Scanner(System.in);
 		
+		double salary;
+		
 		System.out.println("Demonstrating some raises");
 		
 		System.out.println("Enter your salary >> ");
