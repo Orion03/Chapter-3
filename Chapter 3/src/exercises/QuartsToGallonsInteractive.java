@@ -25,5 +25,16 @@ public class QuartsToGallonsInteractive {
 		System.out.println("You have " + gallonsNeeded + " gallons and " 
 		+ extraQuarts + " quarts left over");
 	}
+	
+	public static void displayConversion() {
+		int gallonsNeeded;
+		int extraQuarts;
+		gallonsNeeded = quartsNeeded / quartsInGallons;
+		extraQuarts = quartsNeeded % quartsInGallons;
+		
+		
+		System.out.println("You have " + gallonsNeeded + " gallons and " 
+		+ extraQuarts + " quarts left over");
+	}
 
 }
