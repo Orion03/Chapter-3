@@ -22,13 +22,28 @@ public class FahrenheitToCelcius {
 		System.out.println("Please enter the temperature it was at 5:00 >> ");
 		temperatureAtFive = input.nextDouble();
 		
-		FahrenheitToCelsius(temperatureAtEight);
+		FahrenheitToCelsius1(temperatureAtEight);
+		
+		FahrenheitToCelsius2(temperatureAtTwelve);
+		
+		FahrenheitToCelsius3(temperatureAtFive);
 	}
 	
-	public static void FahrenheitToCelsius(double temperatureAtEight) {
+	public static void FahrenheitToCelsius1(double temperatureAtEight) {
 		double CelsiusAtEight;
 		CelsiusAtEight = (temperatureAtEight - 32) * 5/9;
 		System.out.println(temperatureAtEight + " degrees fahrenheit is " + CelsiusAtEight + " degrees celsius.");
 	}
-
+	
+	public static void FahrenheitToCelsius2(double temperatureAtTwelve) {
+		double CelsiusAtTwelve;
+		CelsiusAtTwelve = (temperatureAtTwelve - 32) * 5/9;
+		System.out.println(temperatureAtTwelve + " degrees fahrenheit is " + CelsiusAtTwelve + " degrees celsius.");
+	}
+	
+	public static void FahrenheitToCelsius3(double temperatureAtFive) {
+		double CelsiusAtFive;
+		CelsiusAtFive = (temperatureAtFive - 32) * 5/9;
+		System.out.println(temperatureAtFive + " degrees fahrenheit is " + CelsiusAtFive + " degrees celsius.");
+	}
 }
