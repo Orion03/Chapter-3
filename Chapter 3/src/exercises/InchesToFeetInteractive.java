@@ -10,7 +10,9 @@ class InchesToFeetInteractive
      Scanner input = new Scanner(System.in);
 
      System.out.print("Enter inches >> ");
- 
+     inches = input.nextInt();
+     
+     displayConversion(inches);
   }
   
   public static void displayConversion(int inches) {
