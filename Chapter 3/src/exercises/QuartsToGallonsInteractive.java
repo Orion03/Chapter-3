@@ -11,7 +11,7 @@ public class QuartsToGallonsInteractive {
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Enter quarts needed>>>");
+		System.out.print("Enter quarts needed >>>");
 		quartsNeeded = input.nextInt();
 		displayConversion(quartsNeeded);
 	}
