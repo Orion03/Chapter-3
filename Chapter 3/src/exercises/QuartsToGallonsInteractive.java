@@ -13,6 +13,7 @@ public class QuartsToGallonsInteractive {
 		
 		System.out.print("Enter quarts needed >>>");
 		quartsNeeded = input.nextInt();
+		
 		displayConversion(quartsNeeded);
 	}
 	
