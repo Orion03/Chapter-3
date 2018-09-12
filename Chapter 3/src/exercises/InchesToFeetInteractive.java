@@ -1,6 +1,7 @@
 package exercises;
 
 import java.util.Scanner;
+
 class InchesToFeetInteractive
 {    
   public static void main(String[] args) 
@@ -16,5 +17,9 @@ class InchesToFeetInteractive
      inchesLeft = inches % INCHES_IN_FOOT;
      System.out.println(inches + " inches is " +
         feet + " feet and " + inchesLeft + " inches"); 
+  }
+  
+  public static void displayConversion() {
+	  
   }
 }
