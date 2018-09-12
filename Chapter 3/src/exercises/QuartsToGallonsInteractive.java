@@ -29,7 +29,7 @@ public class QuartsToGallonsInteractive {
 	}
 	
 	public static void displayConversion(int quartsNeeded) {
-		final int quartsToGallons = 4;
+		final int quartsInGallons = 4;
 		int gallonsNeeded;
 		int extraQuarts;
 		gallonsNeeded = quartsNeeded / quartsInGallons;
