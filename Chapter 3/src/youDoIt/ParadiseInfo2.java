@@ -32,4 +32,10 @@ public class ParadiseInfo2
 		System.out.println("Paradise Day Spa will wants to pamper you.");
 		System.out.println("We will make you look good.");
 	}
+	
+	public static double computeDiscountInfo(double pr, double dscnt) {
+		double savings;
+		savings = pr * dscnt / 100;
+		return savings;
+	}
 }
