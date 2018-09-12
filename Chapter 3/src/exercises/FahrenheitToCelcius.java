@@ -9,41 +9,27 @@ public class FahrenheitToCelcius {
 		
 		Scanner input = new Scanner(System.in);
 		
-		double temperatureAtEight;
-		double temperatureAtTwelve;
-		double temperatureAtFive;
+		double temperature;
+		double temperature2;
+		double temperature3;
 		
 		System.out.println("Please enter the temperature it was at 8:00 >> ");
-		temperatureAtEight = input.nextDouble();
+		temperature = input.nextDouble();
+		displayConversion(temperature);
 		
 		System.out.println("Please enter the temperature it was at 12:00 >> ");
-		temperatureAtTwelve = input.nextDouble();
+		temperature2 = input.nextDouble();
+		displayConversion(temperature2);
 		
 		System.out.println("Please enter the temperature it was at 5:00 >> ");
-		temperatureAtFive = input.nextDouble();
-		
-		FahrenheitToCelsius1(temperatureAtEight);
-		
-		FahrenheitToCelsius2(temperatureAtTwelve);
-		
-		FahrenheitToCelsius3(temperatureAtFive);
+		temperature3 = input.nextDouble();
+		displayConversion(temperature3);
 	}
 	
-	public static void FahrenheitToCelsius1(double temperatureAtEight) {
-		double CelsiusAtEight;
-		CelsiusAtEight = (temperatureAtEight - 32) * 5/9;
-		System.out.println(temperatureAtEight + " degrees fahrenheit is " + CelsiusAtEight + " degrees celsius.");
+	public static void displayConversion(double temperature4) {
+		double Celsius;
+		Celsius = (temperature4 - 32) * 5/9;
+		System.out.println("The temperature of " + temperature4 + " degrees fahrenheit is " + Celsius + "degrees celsius.");
 	}
 	
-	public static void FahrenheitToCelsius2(double temperatureAtTwelve) {
-		double CelsiusAtTwelve;
-		CelsiusAtTwelve = (temperatureAtTwelve - 32) * 5/9;
-		System.out.println(temperatureAtTwelve + " degrees fahrenheit is " + CelsiusAtTwelve + " degrees celsius.");
-	}
-	
-	public static void FahrenheitToCelsius3(double temperatureAtFive) {
-		double CelsiusAtFive;
-		CelsiusAtFive = (temperatureAtFive - 32) * 5/9;
-		System.out.println(temperatureAtFive + " degrees fahrenheit is " + CelsiusAtFive + " degrees celsius.");
-	}
 }
