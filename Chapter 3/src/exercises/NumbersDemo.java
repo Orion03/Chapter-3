@@ -8,6 +8,7 @@ public class NumbersDemo {
 		int x = 5;
 		int y = 12;
 		
+		displayTwiceTheNumber(x, y);
 	}
 	
 	public static void displayTwiceTheNumber(int x, int y) {
