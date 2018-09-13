@@ -1,12 +1,22 @@
 package exercises;
 
+import java.util.Scanner;
+
 public class NumbersDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int x = 5;
-		int y = 12;
+		Scanner input = new Scanner(System.in);
+		
+		int x;
+		int y;
+		
+		System.out.println("Please enter a value for x >> ");
+		x = input.nextInt();
+		
+		System.out.println("Please enter a value for y >> ");
+		y = input.nextInt();
 		
 		displayTwiceTheNumber(x, y);
 		displayNumberPlusFive(x, y);
