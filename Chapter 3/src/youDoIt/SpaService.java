@@ -7,7 +7,7 @@ public class SpaService {
 	
 	private double price;
 	
-	public void setServiceDescription(String Service)
+	public void setServiceDescription(String service)
 	{
 		serviceDescription = service;
 	}
