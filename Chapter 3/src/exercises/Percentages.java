@@ -17,6 +17,7 @@ public class Percentages {
 		double compute;
 		
 		compute = x / y;
+		System.out.println(x + " divided by " + y + " = " + compute);
 	}
 
 }
