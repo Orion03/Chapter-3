@@ -10,6 +10,7 @@ public class NumbersDemo {
 		
 		displayTwiceTheNumber(x, y);
 		displayNumberPlusFive(x, y);
+		displayNumberSquared(x, y);
 	}
 	
 	public static void displayTwiceTheNumber(int x, int y) {
@@ -30,6 +31,16 @@ public class NumbersDemo {
 		x3 = x + 5;
 		y3 = y + 5;
 		System.out.println("x = " + x3 + " y = " + y3);
+	}
+	
+	public static void displayNumberSquared(int x, int y) {
+		
+		int x4;
+		int y4;
+		
+		x4 = x * x;
+		y4 = y * y;
+		System.out.println("x = " + x4 + " y = " + y4);
 	}
 
 }
