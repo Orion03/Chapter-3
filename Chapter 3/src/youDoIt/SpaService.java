@@ -9,7 +9,8 @@ public class SpaService {
 	
 	public void setServiceDescription(String service)
 	{
-		serviceDescription = service;
+		serviceDescription = "XXX";
+		price = 0;
 	}
 	
 	public void setPrice(double pr)

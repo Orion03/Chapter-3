@@ -23,17 +23,17 @@ public class CreateSpaServices {
 		
 		firstService.setPrice(price);
 		
-		keyboard.nextLine();
+		//keyboard.nextLine();
 		
-		System.out.println("Enter service >> ");
-		service = keyboard.nextLine();
+		//System.out.println("Enter service >> ");
+		//service = keyboard.nextLine();
 		
-		System.out.println("Enter price >> ");
-		price = keyboard.nextDouble();
+		//System.out.println("Enter price >> ");
+		//price = keyboard.nextDouble();
 		
-		secondService.setServiceDescription(service);
+		//secondService.setServiceDescription(service);
 		
-		secondService.setPrice(price);
+		//secondService.setPrice(price);
 		
 		System.out.println("First service details:");
 		System.out.println(firstService.getServiceDescription() + " $" + firstService.getPrice());
