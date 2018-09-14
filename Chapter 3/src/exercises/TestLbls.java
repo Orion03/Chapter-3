@@ -22,7 +22,7 @@ public class TestLbls {
 	public static void poundsToKilograms(double pounds) {
 		
 		double poundsConversion1;
-		poundsConversion1 = (pounds - 4) / 2;
+		poundsConversion1 = pounds * 0.453592;
 		System.out.println("You weigh " + poundsConversion1 + " kilograms.");
 	}
 	
