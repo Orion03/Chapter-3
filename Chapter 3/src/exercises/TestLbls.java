@@ -24,6 +24,8 @@ public class TestLbls {
 		double poundsConversion1;
 		poundsConversion1 = pounds * 0.453592;
 		System.out.println("You weigh " + poundsConversion1 + " kilograms.");
+		
+		allInOne(poundsConversion1);
 	}
 	
 	public static void poundsToOunces(double pounds) {
@@ -31,6 +33,8 @@ public class TestLbls {
 		double poundsConversion2;
 		poundsConversion2 = pounds * 16;
 		System.out.println("You weigh " + poundsConversion2 + " ounces.");
+		
+		allInOne(poundsConversion2);
 	}
 	
 	public static void poundsToMilligrams(double pounds) {
@@ -39,5 +43,13 @@ public class TestLbls {
 		poundsConversion3 = pounds * 453592.37;
 		System.out.println("You weigh " + poundsConversion3 + " milligrams.");
 		
+		allInOne(poundsConversion3);
+		
+	}
+	
+	public static void allInOne(double poundsConversion1, double poundsConversion2, double poundsConversion3) {
+		
+		System.out.println("You weigh " + poundsConversion1 + " Kilograms, " + poundsConversion2 + " Ounces, and " + poundsConversion3 + 
+				" Milligrams.");
 	}
 }
