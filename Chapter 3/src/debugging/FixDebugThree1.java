@@ -8,14 +8,13 @@ public class FixDebugThree1
       double myCheck = 50.00;
       double yourCheck = 19.95;
       System.out.println("Tips are");
-      calcTip(myCheck);
-      calcTip(yourCheck);
+      calcTip(myCheck, yourCheck);
     }
-    public static void calcTip(int bill)
+    public static void calcTip(double myCheck, double yourCheck)
     {
       final double RATE = 0.15;
       double tip;
-      tip = bill * RATE;
+      tip = myCheck * RATE;
       System.out.println("The tip should be at least " + tip);
     }
 }
